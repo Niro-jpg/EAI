@@ -16,7 +16,10 @@ cd MeshCNN
 ```
 - Install dependencies
 - Import Dataset
-- Use concersion.py to apply ordering to the dataset
+- Use to convert the dataset the following command 
+```bash
+./scripts/shrec/order.bat
+```
 ### 3D Shape Classification on SHREC
 
 Run training (if using conda env first activate env e.g. ```source activate meshcnn```)
